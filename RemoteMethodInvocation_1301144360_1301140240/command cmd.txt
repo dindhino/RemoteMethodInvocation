@@ -1,0 +1,10 @@
+#1 Command Prompt
+javac *.java  
+rmic AdderRemote  
+rmiregistry 5000  
+  
+#2 Command Prompt 
+java MyServer  
+
+#3 Command Prompt
+java MyClient  
